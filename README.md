@@ -14,4 +14,5 @@ The demo config.ru mounts 2 rack applications, /c showing the content of RbConfi
 of the rack 'env' parameter as it is available for any application.
 
 Just for an illustration of how to do it, a WebView widget is opened right below the server control
-and displays the content of http://127.0.0.1:<port>/c.
+and displays the content of ``http://127.0.0.1:<port>/c``.
+
