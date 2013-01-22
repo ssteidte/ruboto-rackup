@@ -3,8 +3,15 @@ ruboto-rackup
 
 Android Ruboto app mimicking 'rackup'. 
 
+This is a Ruboto project, see http://ruboto.org for more information.
+
 This app starts a ruby rack server at a configurable port, starting the rack application configured in /sdcard/jruby/config.ru.
 Besides Ruboto's (moderate) stack limitations any application works as it does on a desktop.
+
+The advantage is, that you develop the rack application on the dektop and then just copy the file to
+the device using the remote copy method of your choice. No recompile needed, just stop and start the server again
+to pick up the changes.
+
 
 Quick Start
 -----------
