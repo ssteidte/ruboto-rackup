@@ -6,7 +6,8 @@ Android Ruboto app mimicking 'rackup'.
 This is a Ruboto project, see http://ruboto.org for more information.
 
 This app starts a ruby rack server at a configurable port, starting the rack application configured in /sdcard/jruby/config.ru.
-Besides Ruboto's (moderate) stack limitations any application works as it does on a desktop.
+Besides Ruboto's (moderate) stack limitations any applications work as they do on the desktop.
+This holds true for plain ruby and stdlib code. Some libraries and gems might not yet be supported on Ruboto.
 
 The advantage is, that you develop the rack application on the dektop and then just copy the file to
 the device using the remote copy method of your choice. No recompile needed, just stop and start the server again
@@ -22,4 +23,8 @@ of the rack 'env' parameter as it is available for any application.
 
 Just for an illustration of how to do it, a WebView widget is opened right below the server control
 and displays the content of ``http://127.0.0.1:<port>/c``.
+
+Note
+----
+The target Android API level is 16. Edit project.properties and AndroidManifest.xml to change it.
 

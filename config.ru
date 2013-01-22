@@ -5,7 +5,7 @@
 #
 
 #map "/"  do 
-#  run Rack::File.new("/sdcard/webroot")
+#  run Rack::File.new("/sdcard/jruby/webroot")
 #end
 
 map "/c" do
